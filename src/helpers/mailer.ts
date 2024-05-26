@@ -32,7 +32,7 @@ export const sendEmail = async ({email, emailType, userId}:any) => {
                 user: "dd8889a1170c9e", // XX
                 pass: "7fd9e37e548fcc" // XX
             }
-          });
+        });
 
         const mailOptions = {
             from: 'shivam@gmail.com',
